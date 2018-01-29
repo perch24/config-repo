@@ -1,0 +1,18 @@
+endpoints:
+  mappings:
+    sensitive: false
+  beans:
+    sensitive: false
+  configprops:
+    sensitive: false
+  env:
+    sensitive: false
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    io:
+      pivotalservices: DEBUG
